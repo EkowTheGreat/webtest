@@ -12,16 +12,22 @@
     
     
     .title{
+        right: 10vw;
         font-size: larger;
         font-family: fantasy;
     }
     .titleLogo{
+        top: 10vh;
+        right: 10vw;
+        
         height: 10vh;
         width: 10vw;
-        min-width: 10vw;
-        min-height: 10vh;
+        min-width: 5vw;
+        min-height: 5vh;
         background-color: rgba(128, 128, 128, 0);
-        background-image: url(assets/newlogo.png);
+        background-image: url(assets/Final4.png);
+        background-size: contain;
+        background-repeat: no-repeat;
     }
     .toolbarLinks{
         flex: 1 1 auto;
