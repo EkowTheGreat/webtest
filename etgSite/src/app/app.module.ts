@@ -8,6 +8,7 @@ import { StreamComponent } from './stream/stream.component';
 
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatCardModule } from '@angular/material/card';
+import {  MatBottomSheetModule } from '@angular/material/bottom-sheet';
 import { NoopAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
@@ -20,6 +21,7 @@ import { NoopAnimationsModule } from '@angular/platform-browser/animations';
     BrowserModule,
     RoutingModule,
     MatToolbarModule ,
+    MatBottomSheetModule,
     MatCardModule,
     NoopAnimationsModule
   ],

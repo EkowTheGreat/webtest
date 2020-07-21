@@ -1,4 +1,4 @@
-
+/* You can add global styles to this file, and also import other style files */
 .header{
     z-index: 2;
     position: fixed;
@@ -14,6 +14,14 @@
     .title{
         font-size: larger;
         font-family: fantasy;
+    }
+    .titleLogo{
+        height: 10vh;
+        width: 10vw;
+        min-width: 10vw;
+        min-height: 10vh;
+        background-color: rgba(128, 128, 128, 0);
+        background-image: url(assets/newlogo.png);
     }
     .toolbarLinks{
         flex: 1 1 auto;
@@ -48,7 +56,7 @@
     
     
     background-color: rgba(245, 245, 245, 0);
-   
+    background-image: url(assets/11.jpg);
     background-size: cover;
     -webkit-margin-collapse: discard;
     -webkit-box-align: baseline;

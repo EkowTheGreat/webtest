@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import {MatBottomSheet, MatBottomSheetRef} from '@angular/material/bottom-sheet';
+import{StreamComponent} from '../stream/stream.component';
+import { from } from 'rxjs';
 
 @Component({
   selector: 'app-home',
@@ -11,5 +14,4 @@ export class HomeComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
-}
+} 
