@@ -12,7 +12,7 @@
     
     
     .title{
-        right: 10vw;
+        left: 10vw;
         font-size: larger;
         font-family: fantasy;
     }
@@ -21,14 +21,24 @@
         right: 10vw;
         
         height: 10vh;
-        width: 10vw;
-        min-width: 5vw;
-        min-height: 5vh;
+        width: 8vw;
+        min-width: 8vw;
+        min-height: 10vh;
         background-color: rgba(128, 128, 128, 0);
         background-image: url(assets/Final4.png);
         background-size: contain;
         background-repeat: no-repeat;
+        background-position-x: center;
+        background-position-y: center;
     }
+    .example-icon {
+        padding: 0 14px;
+        vertical-align: text-top;
+}
+
+      .example-spacer {
+        flex: 1 1 auto;
+      }
     .toolbarLinks{
         flex: 1 1 auto;
     }
@@ -70,9 +80,11 @@
     
     
     .info{
-        left: 50vw;
-        top: 60vh;
-        width: 10vw;
+        position: sticky;
+        left: 10vw; 
+        top: 20vh;
+        height: 60vh;
+        width: 80vw;
         text-align-last: center;
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         font-size: larger;
@@ -87,7 +99,7 @@
     top: 95vh;
     height: 5vh;
     width: 100vw;
-    background-color: gray;
+    background-color: rgb(255, 255, 255);
     -webkit-margin-top-collapse: discard;
     
 }
