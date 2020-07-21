@@ -5,6 +5,7 @@ import { RoutingModule } from './routing/routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { StreamComponent } from './stream/stream.component';
+import { NoopAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { StreamComponent } from './stream/stream.component';
   ],
   imports: [
     BrowserModule,
-    RoutingModule
+    RoutingModule,
+    NoopAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
