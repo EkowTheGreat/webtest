@@ -7,16 +7,16 @@ import{ YoutubeComponent} from '../youtube/youtube.component';
 
 const routes = [
   {
-    path: 'https://www.ekowthegreat.co.uk/',
+    path: '',
     component: HomeComponent
   },
   {
 
-    path: 'https://www.ekowthegreat.co.uk/stream',
+    path: 'stream',
     component: StreamComponent
   },
   {
-    path: 'https://www.ekowthegreat.co.uk/youtube',
+    path: 'youtube',
     component: YoutubeComponent
   }
 ];
