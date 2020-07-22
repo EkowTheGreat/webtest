@@ -7,7 +7,7 @@ import{ YoutubeComponent} from '../youtube/youtube.component';
 
 const routes = [
   {
-    path: '',
+    path: 'x',
     component: HomeComponent
   },
   {
@@ -16,7 +16,7 @@ const routes = [
     component: StreamComponent
   },
   {
-    path: 'youtube',
+    path: '',
     component: YoutubeComponent
   }
 ];
