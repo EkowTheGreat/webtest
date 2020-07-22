@@ -19,7 +19,7 @@
           "options": {
 		  "glob": "_redirects",
   "input": "src",
-  "output": "/"
+  "output": "/",
             "outputPath": "dist/etgSite",
             "index": "src/index.html",
             "main": "src/main.ts",
