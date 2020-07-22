@@ -10,7 +10,9 @@
     background-color: rgba(128, 128, 128, 0);
     -webkit-margin-collapse: discard;
     
-    
+    .toolbar{
+        justify-content: space-evenly;
+    }
     .title{
         left: 10vw;
         font-size: larger;
@@ -41,6 +43,8 @@
       }
     .toolbarLinks{
         flex: 1 1 auto;
+        display: flex;
+        
     }
     .headerButtonLayout{
         display: flex;
@@ -67,7 +71,7 @@
     
     top: 10vh;
     position: fixed;
-    height: 85vh;
+    height: 88vh;
     width: 100vw;
     
     
@@ -80,11 +84,11 @@
     
     
     .info{
-        position: sticky;
-        left: 20vw; 
-        top: 20vh;
-        height: 60vh;
-        width: 60vw;
+        position: fixed;
+        left: 2vw; 
+        top: 15vh;
+        height: 80vh;
+        width: 96vw;
         text-align-last: center;
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         font-size: larger;
@@ -96,8 +100,8 @@
 }
 .footer{
     position: fixed;
-    top: 95vh;
-    height: 5vh;
+    top: 98vh;
+    height: 2vh;
     width: 100vw;
     background-color: rgb(255, 255, 255);
     -webkit-margin-top-collapse: discard;
@@ -122,5 +126,26 @@
     color:  #000000;
     background-color: rgba(128, 128, 128, 0.9);
 }
+.streambody{
+    
+    
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    
+    
+    background-color: rgba(245, 245, 245, 0);
+    background-image: url(assets/11.jpg);
+    background-size: cover;
+    -webkit-margin-collapse: discard;
+    -webkit-box-align: baseline;
+    margin: 0;
+}
+.stream{
+    text-align: -webkit-center;
+    top: 10vh;
+
+}
+
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
