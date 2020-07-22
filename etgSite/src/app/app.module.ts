@@ -11,12 +11,14 @@ import { MatCardModule } from '@angular/material/card';
 import {  MatBottomSheetModule } from '@angular/material/bottom-sheet';
 import {MatIconModule} from '@angular/material/icon';
 import { NoopAnimationsModule } from '@angular/platform-browser/animations';
+import { YoutubeComponent } from './youtube/youtube.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    StreamComponent
+    StreamComponent,
+    YoutubeComponent
   ],
   imports: [
     BrowserModule,
