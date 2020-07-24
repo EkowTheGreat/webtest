@@ -1,8 +1,14 @@
 
 <header class="header">
-    <div id="headerimage">
-
-    </div>
+   
+    <script>
+        function setURL(){
+            document.getElementById('click').innerHTML = 1;
+            document.getElementById('click').innerText = 1;
+            
+        }
+    </script>
+   
     <div id="toolbar">
 
         <mat-toolbar class="toolbar" color="black">
@@ -16,18 +22,27 @@
             <span class="example-spacer"></span>
 
             
+                
+
                 <span class="example-icon">
-                    <a href="stream" target="iframe_1">TWITCH</a>
+                     
+                    <mat-button-toggle-group class="buttonlink" name="legacy" aria-label="Font Style">
+                        <mat-button-toggle value="youtube" onclick="document.getElementById('iframe_1').src = 'twitch'">TWITCH</mat-button-toggle>
+                        <mat-button-toggle value="youtube" onclick="document.getElementById('iframe_1').src = 'youtube'">YOUTUBE</mat-button-toggle>
+                        <mat-button-toggle value="youtube" onclick="document.getElementById('iframe_1').src = 'youtube'">INSTAGRAM</mat-button-toggle>
+                        
+                      
+                        
+                    </mat-button-toggle-group>
+                            
+                            
+                        
                 </span>
-                <span class="example-icon">
-                    <a href="youtube" target="iframe_1">YOUTUBE</a>
-                </span>
-                <span class="example-icon">
-                     <a href="youtube" target="iframe_1">INSTAGRAM</a>
-                </span>
+                
                
             
         </mat-toolbar>
+       
     </div>
     
 </header>
@@ -37,7 +52,7 @@
         
         
         
-        <iframe class="iframe-container" src="twitch" height="650" width="1304" name="iframe_1"></iframe>
+        <iframe id="iframe_1" class="iframe-container" src="" height="690" width="1304" name="iframe_1"></iframe>
         
         
        
