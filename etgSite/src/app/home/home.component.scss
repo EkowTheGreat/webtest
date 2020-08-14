@@ -1,5 +1,5 @@
 .buttonlink{
-    height: -webkit-fill-available;
+    height: 6vh;
     place-items: center;
     background-color: white !important;
     
@@ -13,7 +13,7 @@ mat-button-toggle-group {
   
   .mat-button-toggle {
       border: 1px rgb(245, 245, 245) solid !important;
-      margin-top: 5px !important;
+      
       padding: 0 5px !important;
       z-index: 3 !important;
   }
