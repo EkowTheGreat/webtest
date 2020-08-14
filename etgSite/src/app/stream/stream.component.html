@@ -1,13 +1,49 @@
-<body>
+<div id="toolbar">
+
+    <mat-toolbar class="toolbar" color="black">
+        
+
+         <span class="titleLogo"></span>
+        <span class="title">EkowTheGreat.co.uk</span>
+        
+        
+             <mat-icon aria-hidden="false" aria-label="Example user verified icon">verified_user</mat-icon>
+        
+        <span class="example-spacer"></span>
+
+        
+            
+
+            <span class="example-icon">
+                 
+                <mat-button-toggle-group class="buttonlink" name="legacy" aria-label="Font Style" value="twitch">
+                    <mat-button-toggle value="twitch" onclick="location.href='https://www.ekowthegreat.co.uk/stream'">TWITCH</mat-button-toggle>
+                    <mat-button-toggle value="youtube" onclick="location.href='https://www.ekowthegreat.co.uk/youtube'">YOUTUBE</mat-button-toggle>
+                    <mat-button-toggle value="instagram" onclick="location.href='https://www.ekowthegreat.co.uk/youtube'">INSTAGRAM</mat-button-toggle>
+                    
+                  
+                    
+                </mat-button-toggle-group>
+                        
+                        
+                    
+            </span>
+            
+           
+        
+    </mat-toolbar>
+   
+</div>
+
     
-    <div class="streambody">
+    <div class="body">
         <div class="spacer"></div>
         
         
         
         <div class="stream">
             <span>
-                <iframe src="https://www.twitch.tv/embed/ekowthegreat/chat?parent=www.ekowthegreat.co.uk" frameborder="1" allowfullscreen="true" scrolling="no" height="760" width=70%></iframe>
+                <iframe src="https://player.twitch.tv/?channel=ekowthegreat&parent=localhost" frameborder="1" allowfullscreen="true" scrolling="no" height="760" width=70%></iframe>
     
             </span>
             <span>
@@ -21,4 +57,3 @@
         </div>
         
     </div>
-</body>

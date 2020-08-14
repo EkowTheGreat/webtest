@@ -4,6 +4,8 @@ import {  HomeComponent } from '../home/home.component';
 import {  StreamComponent } from '../stream/stream.component';
 import{ YoutubeComponent} from '../youtube/youtube.component';
 import{ InstagramComponent} from '../instagram/instagram.component';
+import {DiscordComponent} from '../discord/discord.component';
+
 
 
 const routes = [
@@ -21,8 +23,8 @@ const routes = [
     component: YoutubeComponent
   },
   {
-    path: 'instagram',
-    component: InstagramComponent
+    path: 'discord',
+    component: DiscordComponent
   }
 ];
 

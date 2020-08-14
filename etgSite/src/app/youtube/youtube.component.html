@@ -1,21 +1,54 @@
-<div class="section">
-    
-    <h1>Coming Soon!</h1>
+<div id="toolbar">
 
-        <div class="video-container">
-            <div class="colour-overlay"></div>
-            
-            <video autoplay loop>
-                <source src="../../assets/bgvid.mp4" type="video/mp4">
-            </video>
-
-        </div>
+    <mat-toolbar class="toolbar" color="black">
         
 
-        <div class="viewport">
-        </div>
+         <span class="titleLogo"></span>
+        <span class="title">EkowTheGreat.co.uk</span>
+        
+        
+             <mat-icon aria-hidden="false" aria-label="Example user verified icon">verified_user</mat-icon>
+        
+        <span class="example-spacer"></span>
+
+        
+            
+
+            <span class="example-icon">
+                 
+                <mat-button-toggle-group class="buttonlink" name="legacy" aria-label="Font Style" value="youtube">
+                    <mat-button-toggle value="twitch" onclick="location.href='https://www.ekowthegreat.co.uk/stream'">TWITCH</mat-button-toggle>
+                    <mat-button-toggle value="youtube" onclick="location.href='https://www.ekowthegreat.co.uk/youtube'">YOUTUBE</mat-button-toggle>
+                    <mat-button-toggle value="discord" onclick="location.href='https://www.ekowthegreat.co.uk/dicord'">DISCORD</mat-button-toggle>
+                    
+                  
+                    
+                </mat-button-toggle-group>
+                        
+                        
+                    
+            </span>
+            
+           
+        
+    </mat-toolbar>
+   
+</div>
+
+<div class="section">
+
+    <h1>Coming Soon!</h1>
+
+    <div class="video-container">
+        <div class="colour-overlay"></div>
+
+        <video autoplay loop>
+            <source src="../../assets/bgvid.mp4" type="video/mp4">
+        </video>
+
     </div>
 
 
-
-
+    <div class="viewport">
+    </div>
+</div>

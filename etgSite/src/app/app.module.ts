@@ -15,6 +15,7 @@ import {MatButtonToggleModule} from '@angular/material/button-toggle';
 
 import { NoopAnimationsModule } from '@angular/platform-browser/animations';
 import { InstagramComponent } from './instagram/instagram.component';
+import { DiscordComponent } from './discord/discord.component';
 
 
 @NgModule({
@@ -23,7 +24,8 @@ import { InstagramComponent } from './instagram/instagram.component';
     HomeComponent,
     StreamComponent,
     YoutubeComponent,
-    InstagramComponent
+    InstagramComponent,
+    DiscordComponent
   ],
   imports: [
     BrowserModule,
