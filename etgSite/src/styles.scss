@@ -22,7 +22,7 @@
             min-width: 5vw;
             min-height: 5vh;
             background-color: rgba(128, 128, 128, 0);
-            background-image: url(assets/Final4.png);
+            background-image: url(assets/Coldilock.png);
             background-size: contain;
             background-repeat: no-repeat;
             background-position-x: center;
@@ -186,6 +186,26 @@
 }
 .spacer{
     height: 8vh;
+}
+.discordwidget{
+    z-index: 2;
+}
+.video-container{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: -1;
+
+}.colour-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+    opacity: 0.1;
+    
 }
 
 html, body { height: 100%; }
