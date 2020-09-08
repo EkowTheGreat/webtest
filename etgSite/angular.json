@@ -30,9 +30,15 @@
             ],
             "styles": [
               "./node_modules/@angular/material/prebuilt-themes/deeppurple-amber.css",
-              "src/styles.scss"
+              
+              "src/styles.scss","node_modules/@fortawesome/fontawesome-free/js/all.js",
+              "node_modules/@fortawesome/fontawesome-free/css/all.css"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/@fortawesome/fontawesome-free/js/all.js",
+"node_modules/@fortawesome/fontawesome-free/css/all.css"
+              
+            ]
           },
           "configurations": {
             "production": {

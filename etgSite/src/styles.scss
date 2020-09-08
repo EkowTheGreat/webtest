@@ -1,20 +1,40 @@
 /* You can add global styles to this file, and also import other style files */
 
-    
+    .bg{
+        position: absolute;
+        height: 100vh;
+        width: 100vw;
+        z-index: -5;
+        background-color: black;
+    }
+    .identity{
+        display: flex;
+        flex-direction: row;
+        place-content: center;
+        align-items: center;
+        width: 100%;
+    }
     .mat-toolbar{
         background: white;
-        padding: 0px;
+        padding: 0px !important;
         z-index: 2;
-        
         width: 100%;
-        min-width: 100%;
-        min-height: 2%;
+        height: 5%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
         justify-content: space-evenly;
+        align-items: center;
+
+        .mat-toolbar-row, .mat-toolbar-single-row {
+            padding:  0px;
+        }
 
         .title{
             left: 10vw;
             font-size: larger;
             font-family: fantasy;
+            min-width: 20vw;
         }
         .titleLogo{
             height: 6vh;
@@ -32,6 +52,18 @@
            
             vertical-align: text-top;
     }
+    .svg-inline--fa.fa-w-16{
+    color: #9147ff;
+    
+    }
+    .svg-inline--fa.fa-w-18 {
+       
+        color: #ff0000;
+    }
+    .svg-inline--fa.fa-w-14 {
+        
+        color: #7289da;
+    }
     
           .example-spacer {
             flex: 1 1 auto;
@@ -39,6 +71,8 @@
         .toolbarLinks{
             flex: 1 1 auto;
             display: flex;
+
+            
             
         }
         .headerButtonLayout{
@@ -60,20 +94,239 @@
         }
         .buttonlink{
             height: 6vh;
+            width:  100vw;
             place-items: center;
             background-color: white !important;
             
             
         }
+        
+        
         mat-button-toggle-group {
             box-shadow: none;
             background-color: white !important;
             color: blue($color: #000000);
+             display: flex;
+            flex-wrap: nowrap;
+            justify-content: space-between;
+            font-size: 10px;
+          }
+          .mat-button-toggle-button{
+            height: 5vh;
+            width: -webkit-fill-available;
+          }
+          .mat-button-toggle {
+              border: 1px rgb(245, 245, 245) solid !important;
+              width: 33vw;
+              height: 5.5vh;
+              padding: 0 5px !important;
+              z-index: 3 !important;
+          }
+          
+          mat-button-toggle:hover {
+              border: 1px #000 solid !important;
+              background-color: rgb(245, 245, 245) !important;
+              color: black;
+              
+              border-radius: 5px !important;
+          }
+          
+          .mat-button-toggle-checked {
+                box-shadow: 0 0 30px #000 !important;
+              border: 1px #000 solid !important;
+              border-radius: 5px !important;
+              background-color: hsl(0, 0%, 0%) !important;
+              color: white;
+          }
+        
+          
+          .mat-button-toggle-input {
+              background-color: rgb(245, 245, 245) !important;
+              padding-left: 32px !important;
+          }
+          .mat-button-toggle-label-content {
+            line-height: 10opx !important; 
+        }
+        
+        
+    }
+    
+    
+    
+   
+    
+
+
+.body{
+    
+    z-index: -1;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    
+    
+    background-color: rgba(245, 245, 245, 0);
+    background-image: url(assets/11.jpg);
+    background-size: cover;
+    -webkit-margin-collapse: discard;
+    -webkit-box-align: baseline;
+    margin: 0;
+    
+    
+    .info{
+        position: fixed;
+        left: 2vw; 
+        top: 15vh;
+        height: 80vh;
+        width: 96vw;
+        text-align-last: center;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: larger;
+        background-color: rgba(245, 245, 245, 0.611);
+        
+    }
+  
+    
+}
+
+
+.streambody{
+    
+    
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    
+    
+    background-color: rgba(245, 245, 245, 0);
+    background-image: url(assets/11.jpg);
+    background-size: cover;
+    -webkit-margin-collapse: discard;
+    -webkit-box-align: baseline;
+    margin: 0;
+}
+.stream{
+    text-align: -webkit-center;
+    top: 10vh;
+
+}
+.spacer{
+    height: 8vh;
+}
+
+
+
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+/* Desktop menu */
+@media all and (min-width: 960px) {
+    .identity{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        
+        width: 40vw;
+    }
+    .mat-toolbar{
+        background: white;
+        padding: 0px !important;
+        z-index: 2;
+        width: 50%;
+        height: 5%;
+        align-items: flex-start;
+
+        .mat-toolbar-row, .mat-toolbar-single-row {
+            padding:  0px;
+        }
+
+        .title{
+            left: 10vw;
+            font-size: larger;
+            font-family: fantasy;
+            min-width: 20vw;
+        }
+        .titleLogo{
+            height: 6vh;
+            width: 6vw;
+            min-width: 5vw;
+            min-height: 5vh;
+            background-color: rgba(128, 128, 128, 0);
+            background-image: url(assets/Coldilock.png);
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position-x: center;
+            background-position-y: center;
+        }
+        .example-icon {
+           
+            vertical-align: text-top;
+    }
+    .svg-inline--fa.fa-w-16{
+    color: #9147ff;
+    
+    }
+    .svg-inline--fa.fa-w-18 {
+       
+        color: #ff0000;
+    }
+    .svg-inline--fa.fa-w-14 {
+        
+        color: #7289da;
+    }
+    
+          .example-spacer {
+            flex: 1 1 auto;
+          }
+        .toolbarLinks{
+            flex: 1 1 auto;
+            display: flex;
+
+            
+            
+        }
+        .headerButtonLayout{
+            display: flex;
+            background-color: black;
+            flex: 1 1 auto;
+        text-align-last: center;
+        }
+        .headerButtonsBox{
+            width: -webkit-fill-available;
+            
+                .headerButtons{
+            
+                    width: -webkit-fill-available;
+                    
+            
+            
+                }
+        }
+        .buttonlink{
+            height: 6vh;
+            width:  30vw;
+            place-items: center;
+            background-color: white !important;
+            
+            
+        }
+        
+        
+        mat-button-toggle-group {
+            box-shadow: none;
+            background-color: white !important;
+            color: blue($color: #000000);
+             display: flex;
+            flex-wrap: nowrap;
+            justify-content: space-between;
+            font-size: 10px;
           }
           
           .mat-button-toggle {
               border: 1px rgb(245, 245, 245) solid !important;
-              
+              width: 33vw;
+              height: 5.5vh;
               padding: 0 5px !important;
               z-index: 3 !important;
           }
@@ -190,14 +443,7 @@
 .discordwidget{
     z-index: 2;
 }
-.video-container{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: -1;
-
-}.colour-overlay{
+.colour-overlay{
     position: absolute;
     top: 0;
     left: 0;
@@ -207,6 +453,20 @@
     opacity: 0.1;
     
 }
+.section{
+    width: 100vw;
+    height: 50vh;
+    
+    .video-container{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    z-index: -1;
+
+}
+}
 
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+}

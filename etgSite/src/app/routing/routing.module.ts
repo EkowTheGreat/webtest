@@ -5,6 +5,8 @@ import {  StreamComponent } from '../stream/stream.component';
 import{ YoutubeComponent} from '../youtube/youtube.component';
 import{ InstagramComponent} from '../instagram/instagram.component';
 import {DiscordComponent} from '../discord/discord.component';
+import {TestIdeaComponent} from '../test-idea/test-idea.component'
+
 
 
 
@@ -25,6 +27,10 @@ const routes = [
   {
     path: 'discord',
     component: DiscordComponent
+  },
+  {
+    path: 't',
+    component: TestIdeaComponent
   }
 ];
 

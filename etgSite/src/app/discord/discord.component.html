@@ -1,52 +1,38 @@
+<div class="bg"></div>
 <div id="toolbar">
-
     <mat-toolbar class="toolbar" color="black">
-
-
-        <span class="titleLogo"></span>
-        <span class="title">EkowTheGreat.co.uk</span>
-
-
-        
-
-        <span class="example-spacer"></span>
-
-
-
-
-        <span class="example-icon">
-
-            <mat-button-toggle-group class="buttonlink" name="legacy" aria-label="Font Style" value="discord">
-                <mat-button-toggle value="twitch" onclick="location.href='https://www.ekowthegreat.co.uk/stream'">TWITCH
-                </mat-button-toggle>
-                <mat-button-toggle value="youtube" onclick="location.href='https://www.ekowthegreat.co.uk/youtube'">
-                    YOUTUBE</mat-button-toggle>
-                <mat-button-toggle value="discord" onclick="location.href='https://www.ekowthegreat.co.uk/discord'">
-                    DISCORD</mat-button-toggle>
-
-
-
-            </mat-button-toggle-group>
-
-
-
+        <span class="identity">
+            <span class="titleLogo"></span>
+        <span class="title">EkowTheGreat.co.uk</span> 
         </span>
-
-
+        
+        <span class="example-spacer"></span>
+        <span class="links">
+        
+        <mat-button-toggle-group class="buttonlink" name="legacy" aria-label="Font Style" value="discord">
+            <mat-button-toggle value="twitch" onclick="location.href='https://www.ekowthegreat.co.uk/stream'"><i class="fab fa-twitch fa-3x"></i>
+            </mat-button-toggle>
+            <mat-button-toggle value="youtube" onclick="location.href='https://www.ekowthegreat.co.uk/youtube'">
+                <i class="fab fa-youtube fa-3x"></i> </mat-button-toggle>
+            <mat-button-toggle value="discord" onclick="location.href='https://www.ekowthegreat.co.uk/discord'">
+                <i class="fab fa-discord fa-3x"></i></mat-button-toggle>
+                
+        </mat-button-toggle-group>
+    </span>
 
     </mat-toolbar>
-
 </div>
 
 
 <div class="body2">
 
-    
     <iframe class="discordwidget" src="https://discordapp.com/widget?id=740667006604279868&theme=dark" width="350" height="500"
         allowtransparency="true" frameborder="0"
         sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+    
     <div class="video-container">
-        <div class="colour-overlay"></div>
+        
+        <div class="colour-overlay"></div> 
 
         <video autoplay loop>
             <source src="../../assets/bgvid.mp4" type="video/mp4">

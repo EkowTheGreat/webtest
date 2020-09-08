@@ -1,0 +1,17 @@
+.toolbar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.toolbar span{
+    display: block;
+    padding: 15px 5px;
+}
+@media all and (min-width: 960px) {
+    .toolbar {
+        align-items: flex-start;     
+        flex-wrap: nowrap;
+        background: none;
+    }
+}
