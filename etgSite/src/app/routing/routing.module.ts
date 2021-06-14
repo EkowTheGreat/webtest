@@ -6,6 +6,7 @@ import{ YoutubeComponent} from '../youtube/youtube.component';
 import{ InstagramComponent} from '../instagram/instagram.component';
 import {DiscordComponent} from '../discord/discord.component';
 import {TestIdeaComponent} from '../test-idea/test-idea.component'
+import { BasiliskComponent } from '../basilisk/basilisk.component';
 
 
 
@@ -31,6 +32,10 @@ const routes = [
   {
     path: 't',
     component: TestIdeaComponent
+  },
+  {
+    path: 'basilisk',
+    component: BasiliskComponent
   }
 ];
 

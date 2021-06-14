@@ -17,6 +17,7 @@ import { NoopAnimationsModule } from '@angular/platform-browser/animations';
 import { InstagramComponent } from './instagram/instagram.component';
 import { DiscordComponent } from './discord/discord.component';
 import { TestIdeaComponent } from './test-idea/test-idea.component';
+import { BasiliskComponent } from './basilisk/basilisk.component';
 
 
 
@@ -30,6 +31,7 @@ import { TestIdeaComponent } from './test-idea/test-idea.component';
     InstagramComponent,
     DiscordComponent,
     TestIdeaComponent,
+    BasiliskComponent,
     
   ],
   imports: [

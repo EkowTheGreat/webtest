@@ -51,7 +51,9 @@
         .example-icon {
            
             vertical-align: text-top;
+        
     }
+    
     .svg-inline--fa.fa-w-16{
     color: #9147ff;
     
@@ -115,6 +117,7 @@
             height: 5vh;
             width: -webkit-fill-available;
           }
+        
           .mat-button-toggle {
               border: 1px rgb(245, 245, 245) solid !important;
               width: 33vw;
@@ -147,6 +150,15 @@
           .mat-button-toggle-label-content {
             line-height: 10opx !important; 
         }
+        #mat-button-toggle-4{
+            
+            background-image: url(assets/bassBagde3.png);
+            background-size: contain;
+                background-repeat: no-repeat;
+                background-position-x: center;
+                background-position-y: center;
+                
+            }
         
         
     }
