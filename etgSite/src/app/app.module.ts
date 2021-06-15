@@ -6,6 +6,8 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { StreamComponent } from './stream/stream.component';
 import { YoutubeComponent } from './youtube/youtube.component';
+import {YouTubePlayerModule} from '@angular/youtube-player'
+
 
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatCardModule } from '@angular/material/card';
@@ -43,6 +45,8 @@ import { BasiliskComponent } from './basilisk/basilisk.component';
     MatIconModule,
     MatButtonToggleModule,
     NoopAnimationsModule,
+    YouTubePlayerModule
+    
     
   ],
   providers: [],
